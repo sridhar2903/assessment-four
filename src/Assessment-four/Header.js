@@ -19,7 +19,7 @@ function Header()
         <Link to ="/contact">
         <span id="contactstyling">Contact</span>
         </Link>
-        <Link to ="*"> </Link>
+        
         </nav>
       </div>
     </>
