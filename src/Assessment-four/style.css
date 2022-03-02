@@ -1,0 +1,85 @@
+body
+{
+    background-color:bisque;
+}
+.header
+{
+    text-align: center;
+    background-color: lightcoral;
+    font-size: 40px;
+}
+
+
+#contactstyling
+{
+    float: right;
+    position: relative;
+    right:20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+
+#homestyling
+{
+    float: left;
+    position: relative;
+    left:20px;
+    font-size: 40px;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#studentstyling
+{
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#home
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#contact
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#error
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#stn
+{
+    position: relative;
+    top:30px;
+    font-weight: bolder;
+ 
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#tabledata
+{
+    position: relative;
+    top:50px;
+}
+#btnstn
+{
+    float: right;
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
