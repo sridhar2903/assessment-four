@@ -5,7 +5,7 @@ import Student from './Assessment-four/Student';
 import Contact from './Assessment-four/Contact';
 import Error from './Assessment-four/Error';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,Navigate } from "react-router-dom";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <Router>
         <Header/>
         <Routes>
+          <Route path="/" element={ <Navigate to='/home'/>  }/>
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/student" element={<Student/>} />

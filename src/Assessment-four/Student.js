@@ -15,42 +15,42 @@ function Student() {
       age: 24,
       course: "MERN",
       Batch: "October",
-      change:<a href="">edit</a>
+      change:<a href="/error">edit</a>
     },
     {
       name: "Doe",
       age: 25,
       course: "MERN",
       Batch: "October",
-      change:<a href="">edit</a>
+      change:<a href="/error">edit</a>
     },
     {
       name: "Biden",
       age: 33,
       course: "MERN",
       Batch: "September",
-      change:<a href="">edit</a>
+      change:<a href="/error">edit</a>
     },
     {
       name: "Barar",
       age: 27,
       course: "MEAN",
       Batch: "September",
-      change:<a href="">edit</a>
+      change:<a href="/error">edit</a>
     },
     {
       name: "Christ",
       age: 30,
       course: "MERN",
       Batch: "October",
-      change:<a href="">edit</a>
+      change:<a href="/error">edit</a>
     },
     {
       name: "Elent",
       age: 20,
       course: "MERN",
       Batch: "October",
-      change:<a href="">edit</a>
+      change:<a href="/error">edit</a>
     },
   ];
   return (
