@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import {Link} from 'react-router-dom'
 
 
 function Student() {
@@ -15,42 +16,42 @@ function Student() {
       age: 24,
       course: "MERN",
       Batch: "October",
-      change:<a href="/error">edit</a>
+      change:<Link to="/error">edit</Link>
     },
     {
       name: "Doe",
       age: 25,
       course: "MERN",
       Batch: "October",
-      change:<a href="/error">edit</a>
+      change:<Link to="/error">edit</Link>
     },
     {
       name: "Biden",
       age: 33,
       course: "MERN",
       Batch: "September",
-      change:<a href="/error">edit</a>
+      change:<Link to="/error">edit</Link>
     },
     {
       name: "Barar",
       age: 27,
       course: "MEAN",
       Batch: "September",
-      change:<a href="/error">edit</a>
+      change:<Link to="/error">edit</Link>
     },
     {
       name: "Christ",
       age: 30,
       course: "MERN",
       Batch: "October",
-      change:<a href="/error">edit</a>
+      change:<Link to="/error">edit</Link>
     },
     {
       name: "Elent",
       age: 20,
       course: "MERN",
       Batch: "October",
-      change:<a href="/error">edit</a>
+      change:<Link to="/error">edit</Link>
     },
   ];
   return (
