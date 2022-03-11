@@ -86,6 +86,9 @@ background-color:blanchedalmond;
     font-family: 'Roboto', sans-serif;
     float: right;
     margin-right: 20px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    bottom: 8px;
     
 }
 #back
@@ -101,6 +104,8 @@ background-color:blanchedalmond;
     font-family: 'Roboto', sans-serif;
     float: left;
     margin-left: 20px;
+    position: relative;
+    bottom: 8px;
 }
 #submit:hover
 
