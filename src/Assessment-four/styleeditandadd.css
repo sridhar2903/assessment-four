@@ -1,0 +1,119 @@
+.add-edit-form
+{
+background-color:blanchedalmond;
+    height: 500px;
+    width: 500px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+#namestyle
+{
+    font-size: larger;
+   
+    font-family: 'Roboto', sans-serif;
+}
+#agestyle
+{
+    font-size: larger;
+   
+    font-family: 'Roboto', sans-serif;
+}
+#coursestyle
+{
+    font-size: larger;
+   
+    font-family: 'Roboto', sans-serif;
+}
+#batchstyle
+{
+    font-size: larger;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+#name
+{
+    height: 50px;
+    width: 450px;
+ 
+
+    text-align: center;
+   
+    font-size: large;
+}
+#age
+{
+    height: 50px;
+    width: 450px;
+ 
+
+    text-align: center;
+   
+    font-size: large;
+
+}
+#course
+{
+    height: 50px;
+    width: 450px;
+ 
+
+    text-align: center;
+   
+    font-size: large;
+}
+#batch
+{
+    height: 50px;
+    width: 450px;
+ 
+
+    text-align: center;
+   
+    font-size: large;
+}
+#submit
+{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color:darksalmon;
+    border: darksalmon;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    margin-right: 20px;
+    
+}
+#back
+{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color:darksalmon;
+    border: darksalmon;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+#submit:hover
+
+    {
+       
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+        color: black;
+      
+    }
+    #back:hover
+
+    {
+       
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+        color: black;
+    }

@@ -6,60 +6,25 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom';
+import { Studentcontext } from './StudentContextAPI';
+import { useContext } from "react";
 
 
 function Student() {
-  const rows = [
-    {
-      name: "John",
-      age: 24,
-      course: "MERN",
-      Batch: "October",
-      change:<Link to="/error">edit</Link>
-    },
-    {
-      name: "Doe",
-      age: 25,
-      course: "MERN",
-      Batch: "October",
-      change:<Link to="/error">edit</Link>
-    },
-    {
-      name: "Biden",
-      age: 33,
-      course: "MERN",
-      Batch: "September",
-      change:<Link to="/error">edit</Link>
-    },
-    {
-      name: "Barar",
-      age: 27,
-      course: "MEAN",
-      Batch: "September",
-      change:<Link to="/error">edit</Link>
-    },
-    {
-      name: "Christ",
-      age: 30,
-      course: "MERN",
-      Batch: "October",
-      change:<Link to="/error">edit</Link>
-    },
-    {
-      name: "Elent",
-      age: 20,
-      course: "MERN",
-      Batch: "October",
-      change:<Link to="/error">edit</Link>
-    },
-  ];
+  const [rows] = useContext(Studentcontext);
+  let navigate = useNavigate();
+  const addstudent=()=>
+  {
+    navigate('/addstudentinfo')
+  }
+
   return (
 
     <>
     <div id="stn">
       Student Details
-      <button id="btnstn">Add New Student</button>
+      <button id="btnstn" onClick={addstudent}>Add New Student</button>
     </div>
     
     <div id="tabledata">
@@ -81,13 +46,14 @@ function Student() {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                {row.name}
+                {row.Name}
               </TableCell>
-              <TableCell align="right">{row.age}</TableCell>
-              <TableCell align="right">{row.course}</TableCell>
+              <TableCell align="right">{row.Age}</TableCell>
+              <TableCell align="right">{row.Course}</TableCell>
               <TableCell align="right">{row.Batch}</TableCell>
-              <TableCell align="right">{row.change}</TableCell>
-              
+              <TableCell align="right">
+              <Link to={"/student/edit/"+row.userId}>Edit</Link>
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
