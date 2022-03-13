@@ -14,7 +14,6 @@ const AddStudentInfo = () => {
 
 
 
-
   const onNameUpdate = (event) => {
     setName(event.target.value)
     

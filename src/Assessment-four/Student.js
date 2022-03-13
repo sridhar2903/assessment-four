@@ -52,7 +52,7 @@ function Student() {
               <TableCell align="right">{row.Course}</TableCell>
               <TableCell align="right">{row.Batch}</TableCell>
               <TableCell align="right">
-              <Link to={"/student/edit/"+row.userId}>Edit</Link>
+              <Link to={"/student/edit/"}>Edit</Link>
               </TableCell>
             </TableRow>
           ))}
